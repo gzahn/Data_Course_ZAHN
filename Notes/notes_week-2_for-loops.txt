@@ -1,0 +1,12 @@
+A for-loop can iterate through a series of values and perform the same action on each value.
+
+This could be a list of file names, or a series of numbers, or any values really.
+
+It takes a mutable variable and assignes it the first value in the series, then when it loops back through, that variable will take the second value, etc.
+
+In R, it can look like:
+
+for(i in mylistofvalues){
+x <- some_function(i)
+return(x)
+}
